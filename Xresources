@@ -1,0 +1,156 @@
+URxvt.font: xft:monospace:size=9
+URxvt.scrollBar: false
+
+!---------------------!
+! SUBWAY PALETTE HERE !
+!---------------------!
+*.foreground:   #ffffff
+*.background:   #162025
+*.cursorColor:  #bfbfbf
+
+*.color0:       #0f1619
+*.color8:       #365a5c
+*.color1:       #393843
+*.color9:       #AD3F3F
+*.color2:       #933535
+*.color10:      #1F4C63
+*.color3:       #235964
+*.color11:      #393843
+*.color4:       #0b4753
+*.color12:      #933535
+*.color5:       #325559
+*.color13:      #AD3F3F
+*.color6:       #AD3F3F
+*.color14:      #0D5261
+*.color7:       #bfbfbf
+*.color15:      #bfbfbf
+
+*fading:                	15
+*fadeColor:       	      	black
+*pointerColorBackground:	#2B2C2B
+*pointerColorForeground:	#16A085
+
+URxvt.internalBorder: 		6
+URxvt.geometry: 		80x20
+URxvt.depth: 			32
+URxvt.background:		[100]#162025
+URxvt*mouseWheelScrollPage:	false
+URxvt*cursorBlink:              true
+URxvt*foreground:               #bfbfbf
+URxvt*cursorColor:              #bfbfbf
+URxvt*saveLines:                5000
+
+!------------------------
+!rofi.color-window: argb:c82d303b, #7c8389, #1d1f21
+!rofi.color-normal: argb:31d1f21, #c4cbd4, argb:96404552, #4084d6, #f9f9f9
+!rofi.color-urgent: argb:2c1d1f21, #cc6666, argb:e54b5160, #a54242, #f9f9f9
+!rofi.color-active: argb:2c1d1f21, #65acff, argb:e44b5160, #4491ed, #f9f9f9
+!rofi.width: 100
+!rofi.lines: 5
+!!rofi.columns: 2
+!rofi.font: Noto Sans 14
+!rofi.bw: 0
+!rofi.padding: 400
+!rofi.eh: 1
+!!rofi.separator-style: solid
+!rofi.hide-scrollbar: true
+
+rofi.lines: 5
+rofi.eh: 2
+rofi.padding: 300
+rofi.fullscreen: true
+rofi.bw: 0
+rofi.separator-style: none
+rofi.hide-scrollbar: true
+!                  'background' 	'border', 	'separator'
+rofi.color-window:  #162025, 	  	 #7c8389, 	#1d1f21
+! State:           'bg',     'fg',     'bgalt',       'hlbg',       'hlfg'
+rofi.color-normal:  #162025, #f3f4f5,   #162025,       argb:31d1f21, #ad3f3f 
+rofi.font: System San Francisco Display 18
+
+
+
+!------------------------------!
+! GRAYSCALE COLOR PALETTE HERE !
+!------------------------------!
+!*.background:     #1D1F21
+!*.foreground:     #C5C8C6
+!*.cursorColor:    #C5C8C6
+
+!*.color0:         #282A2E
+!*.color8:         #373B41
+!*.color1:         #A54242
+!*.color9:         #CC6666
+!*.color2:         #8C9440
+!*.color10:        #707880
+!*.color3:         #DE935F
+!*.color11:        #F0C674
+!*.color4:         #5F819D
+!*.color12:        #81A2BE
+!*.color5:         #85678F
+!*.color13:        #B294BB
+!*.color6:         #5E8D87
+!*.color14:        #8ABEB7
+!*.color7:         #707880
+!*.color15:        #C5C8C6
+
+!URxvt.internalBorder: 		6
+!URxvt.depth: 			32
+!URxvt.background:		[90]#1D1F21
+!URxvt*mouseWheelScrollPage:	false
+!URxvt*cursorBlink:             true
+!URxvt*.background:             #1D1F21
+!URxvt*foreground:              #C5C8C6
+!URxvt*cursorColor:             #C5C8C6
+!URxvt*saveLines:               5000
+
+!------------------------!
+! URXVT LUCK SMITH STYLE !
+!------------------------!
+!black
+!*color0:#1b1918
+!*color8:#766e6b
+
+!!red
+!*color1:#f22c40
+!*color9:#f22c40
+
+!!green
+!*color2:#5ab738
+!*color10:#5ab738
+
+!!yellow
+!*color3:#d5911a
+!*color11:#d5911a
+
+!!blue
+!*color4:#407ee7
+!*color12:#407ee7
+
+!!magenta
+!*color5:#6666ea
+!*color13:#6666ea
+
+!!cyan
+!*color6:#00ad9c
+!*color14:#00ad9c
+
+!!white
+!*color7:#a8a19f
+!*color15:#f1efee
+
+!*foreground: #00cc00
+!*foreground_bold: #a8a19f
+!*cursor: #a8a19f
+!
+
+!!trasparent background
+!URxvt.background:       [50]#000000
+!URxvt.intensityStyles:  false
+!URxvt.cursorColor:      magenta
+!URxvt.colorUL:          #4682B4
+!URxvt*background:       rgba:0000/0000/0000/cccc
+
+!URxvt.transparent:      true
+!URxvt.tintColor:        white
+!URxvt.shading:          20 
