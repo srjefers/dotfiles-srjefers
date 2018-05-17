@@ -206,7 +206,7 @@ bindsym $mod+r mode "resize"
 #	assign [class="TelegramDesktop"] $workspace8
 
 #i3Background	> Fondo de pantalla alv
-	exec_always feh --bg-scale /home/srjefers-deb/Imágenes/wallpaper/bc.jpg
+	exec_always feh --bg-scale /home/srjefers-deb/Imagenes/wallpaper/bc.jpg
 
 #i3Screenshott	> Pantallazos pero no azules v:
 	bindsym $mod+shift+p exec xfce4-screenshooter
